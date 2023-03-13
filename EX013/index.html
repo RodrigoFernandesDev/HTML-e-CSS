@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio server</p>
+
+    <video src="midia/videotest.mp4.mp4" width="500" controls></video> <!--ESTE COMENDO WIDTH SERVE PARA O VÍDEO FICAR MENOR NO SITE, QUE NEM ESTÁ AGORA-->
+
+<p>Outros vídeos aqui, caso o de cima não reproduza (No caso ele vai tentar carregar 1 por 1 dependendo do navegador da pessoa)</p>
+<p>Outro detalhe, isso consume muito tráfego de dados,ou seja, meu cliente pode gastar mais com o consumo do site, pois quando você hospeda um site e cada pessoa pesa GB no site,então isso pesa no bolso do cliente, vídeos hospedados usando a tag videos usa muito tráfego de dados</p>
+
+
+    <video width="500"> <!--No caso aqui eu teria outros vídeos, como MP4,OGV,M4V,WEBM-->
+        <source src="midia/videotest.mp4.mp4" type="video/mp4">
+        <source src="blablabla.ogv" type="video/ogg">
+        <source src="blablabla.m4v" type="video/mp4">
+        <source src="blablabla.webm" type="video/webm">
+
+    </video>
+
+    <h1>Inserindo vídeos do YT</h1>
+    <p>Usando vídeos do YT o cliente irá economizar, então estará no site e youtube, então amplia a vizu do YT.</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/9pnK8akbd2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<p>LINK DO VIMEO : https://vimeo.com/ (Para vídeos exclusivos)</p>
+<p>Ou seja, vídeos colocados diretos aqui que nem o 1 vídeo das montanhas, consomem hospedagem, já os de baixo (YT,VIMEO) não consomem.</p>
+
+
+
+
+
+<h1>Agora vídeos com FOTOS</h1>
+<p>testarei alguns vídeo com fotos</p>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/9pnK8akbd2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+
+<img src="imagens/arkham origins jpeg.jpg" alt="">
+        
+
+<p>Clique na página 2 <a href="pag002.html" rel=next target=self>Clicando AQUI</a><p>
+
+
+
+
+
+</body>
+</html>

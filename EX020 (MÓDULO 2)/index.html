@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS 2.0</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas absolutas = Centímetro (cm),Milímetro (mm),Polegada (in),Pixel (px),Ponto (pt) e pc. (PT maior que PX)
+
+            Medidas Relativas = em, ex, rem, vw, e %*/
+            font-size:15px ;
+            font-weight: lighter;
+            font-style: italic;
+        }   /* weight (peso), width (largura), height (altura)*/
+
+        /*tipos de fontes: lighter ou 100,caso prefira colocar em número (magrinho) normal-400, bold, bolder*/
+        /*se vc clicar no lugar de lighter, clicar CTRL+SPACE vão aparecer todas as alternativas disponiveis*/
+        /*vc pode combinar dversas opções, que nem eu combinei lighter e italic no caso*/
+        /*text-decoration fica sublinhado os textos*/
+
+        h1 {
+            font-family: 'work sans'sans-serif;
+            font-weight: normal;
+            font-size: 3em;
+            font-style: italic;
+            
+            /*shorthand
+            font-style > font-weight > font-size > font-family, você pode colocar isso TUDO em um único código,seria o:
+            font: italic normal 3em ,'work sans'sans-serif;*/
+        }
+
+        h2 {
+            font: bold 2em 'work sans'
+        }
+
+        h4 {
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com tamanhos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae aliquid praesentium eum repellat repellendus perspiciatis aperiam totam fugit doloremque. Possimus saepe porro quibusdam doloribus eos totam perferendis molestias nihil!</p>
+    <h2>Trabalhando mais ainda</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo saepe architecto minus consequatur, quibusdam eligendi quaerat asperiores? Maiores animi suscipit iure porro eum magni distinctio, incidunt itaque voluptatem, eligendi ad?</p>
+    <h3>Parte 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ratione voluptate vitae quasi? Sed eum totam necessitatibus itaque maiores quas ad doloribus laborum nihil, quibusdam odit quae exercitationem nobis ea!</p>
+
+    <h4>GOOGLE Fonts</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eveniet iure aperiam accusantium voluptatum ipsa cumque exercitationem id. Sunt, voluptatibus dicta? Dolorem rem eum deserunt, nostrum atque totam aperiam perferendis?</p>
+
+
+
+    
+</body>
+</html>
